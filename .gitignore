@@ -1,0 +1,35 @@
+# Env
+.env
+.env.*
+!.env.example
+
+# Chrome profile / crawl data
+crawl-shoppe/chrome_real_profile/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Cache / build
+.cache/
+dist/
+build/
